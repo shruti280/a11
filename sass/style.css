@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* -webkit-box-sizing: border-box;
+            box-sizing: border-box; */
+  }
+  
+  .top-line {
+    background: #b73e26;
+    padding: 10px 10px;
+    width: 68vw;
+    margin-left: auto;
+  }
+  
+  .btn-1 {
+    background-color: black;
+    margin-left: 35px;
+    line-height: 1.5;
+    font-size: 1.1rem;
+  }
+  
+  .btn-1:hover {
+    background-color: #a62b1d;
+  }
+  
+  .social-media
+  a {
+    color: #b73e26;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    margin: 2px;
+    display: inline-block;
+  }
+  
+  .header-bg {
+    background-image: url(./image/hero-banner11.gif);
+    
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .text-1 {
+    position: relative;
+    top: 100px;
+  }
+  
+  .text-1 h1 {
+    font-weight: 800;
+    font-size: 3.1rem;
+    font-family: sans-serif;
+  }
+  
+  .text-1 h4 {
+    font-weight: 700;
+    font-size: 1.7rem;
+  }
+  
+  .text-1 .text-2 {
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-family: sans-serif;
+  }
+  
+  .text-1 .btn-2 {
+    padding-top: 50px;
+  }
+  
+  .text-1 .btn-2 .btn-get {
+    background-color: #a62b1d;
+    padding: 15px 20px;
+    font-weight: 300;
+  }
+  
+  .section-title h2 {
+    line-height: 1;
+    font-weight: 800;
+    font-size: 2.8rem;
+  }
+  
+  .section-title p {
+    line-height: 1;
+    font-size: 1.2rem;
+    font-weight: 350;
+  }
+  
+  .text-4 {
+    margin: 24px 257px;
+  }
+  
+  .text-4 ul {
+    list-style: square;
+  }
+  
+  .text-4 li {
+    font-size: 20px;
+    padding-top: 9px;
+  }
+  
+  .text-5 h2 {
+    line-height: 1;
+    font-weight: 700;
+    font-size: 2.8rem;
+  }
+  
+  .text-5 img {
+    padding-top: 25px;
+  }
+  
+  .content-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 95%;
+    height: 190px;
+    color: white;
+    background: #000000b3;
+    font-size: 26px;
+    font-weight: 200;
+    padding-top: 50px;
+  }
+  
+  .wrapper img {
+    width: 100%;
+  }
+  
+  .text-6 h2 {
+    line-height: 1;
+    font-weight: 800;
+    font-size: 2.8rem;
+  }
+  
+  .text-7 ul {
+    list-style: square;
+  }
+  
+  .text-7 li {
+    font-size: 19px;
+    padding-top: 13px;
+  }
+  
+  .bg-color {
+    background-color: #f6f6f6;
+  }
+  
+  .bg-color .text-8 {
+    padding: 70px 0px;
+    line-height: 1;
+  }
+  
+  .bg-color .text-8 h2 {
+    line-height: 1;
+    font-weight: 650;
+    font-size: 3rem;
+  }
+  
+  .content-5 .box {
+    padding: 10px;
+    background: white;
+    margin-bottom: 30px;
+  }
+  
+  .content-5 .box h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 5px 2px;
+  }
+  
+  .bg-color2 {
+    background: #b73e26;
+  }
+  
+  .bg-color2 .content-6 h2 {
+    font-size: 3.3rem;
+    font-weight: 650;
+    line-height: 1;
+  }
+  
+  .bg-color2 .content-6 .bullets ul {
+    font-size: 15px;
+  }
+  
+  .bg-color2 .content-6 .bullets li {
+    font-size: 20px;
+    padding-top: 9px;
+  }
+  
+  .call-us {
+    background-color: #fae6e1;
+    height: 35vh;
+  }
+  
+  .call-us .image2 {
+    text-align: center;
+  }
+  
+  .call-us h3 {
+    padding-left: 60%;
+    font-size: 1.2rem;
+    margin-top: -72px;
+  }
+  
+  .call-us h1 {
+    font-weight: 700;
+    font-size: 2.7rem;
+  }
+  
+  .call-us h1 a {
+    color: #b73e26;
+    text-decoration: none;
+    padding-left: 60%;
+    margin-top: -72px;
+  }
+  
+  .call-us h1 a:hover {
+    color: #000;
+  }
+  
+  .footer {
+    background-color: black;
+    height: 40vh;
+  }
+  
+  .footer .list {
+    text-align: left;
+  }
+  
+  .footer .list ul {
+    list-style: none;
+  }
+  
+  .footer .list h3 {
+    font-size: 1.5rem;
+  }
+  
+  .footer .lists ul {
+    list-style: none;
+  }
+  
+  .footer .lists h3 {
+    font-size: 1.5rem;
+  }
+  
+  .footer .lists a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer .lists a:hover {
+    color: #b73e26;
+  }
+  
+  .footer .social-links a {
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    margin: 2px;
+    display: inline-block;
+  }
+  
+  .footer .social-links a:hover {
+    color: #b73e26;
+  }
+  
+  .footer .line {
+    color: white;
+  }
+  
+  .footer .text-9 h4 {
+    font-size: 1.1rem;
+  }
+  /*# sourceMappingURL=main.css.map */
